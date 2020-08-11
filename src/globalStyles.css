@@ -24,7 +24,7 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: #0f0f0f;
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
@@ -82,14 +82,14 @@ pre code:before,
 pre code:after {
   display: none;
 }
-blockquote {
+/* blockquote {
   margin-left: 0;
   padding-left: 1em;
   line-height: 1.1;
   font-size: 1em;
   font-style: italic;
   border-left: 2px solid var(--primary);
-}
+} */
 
 /* Utility Classes */
 .light {
