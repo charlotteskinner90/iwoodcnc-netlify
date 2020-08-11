@@ -1,8 +1,8 @@
 import React from 'react'
 
-import PageHeader from '../components/PageHeader'
-import LazyImage from '../components/LazyImage'
-import Content from '../components/Content.js'
+import PageHeader from '../components/old_components/PageHeader'
+import LazyImage from '../components/old_components/LazyImage'
+import Content from '../components/old_components/Content.js'
 import './About.css'
 
 export default ({ fields }) => {

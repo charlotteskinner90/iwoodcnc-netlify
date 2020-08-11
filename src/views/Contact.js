@@ -1,9 +1,9 @@
 import React from 'react'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 
-import PageHeader from '../components/PageHeader'
-import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
-import Content from '../components/Content'
+import PageHeader from '../components/old_components/PageHeader'
+import EnquiryFormSimpleAjax from '../components/old_components/EnquiryFormSimpleAjax'
+import Content from '../components/old_components/Content'
 import './Contact.css'
 
 export default ({ fields }) => {
