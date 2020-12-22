@@ -101,9 +101,9 @@ export default class ContactUs extends Component {
               <div className="widget widget_contact">
                 <h4>Address</h4>
                 <p className="address">
-                  iwoodCNC<br />
-                  Brighton, UK <br />
-                  iwoodcnc@hotmail.com<br />
+                  Unit 8, Upper Stoneham Farm, Lewes, BN8 5RH <br />
+                  iwoodbuild@outlook.com<br />
+                  07772409770<br />
                 </p>
               </div>
             </aside>

@@ -15,14 +15,13 @@ export default function Header() {
           <li><a className="smoothscroll" href="#about">About</a></li>
           <li><a className="smoothscroll" href="#portfolio">Gallery</a></li>
           <li><a className="smoothscroll" href="#services">Services</a></li>
-          <li><a className="smoothscroll" href="#materials">Materials</a></li>
           <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
           <li><a className="smoothscroll" href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div className="row banner">
         <div className="banner-text">
-          <img className="logo" src="imgs/iwoodcnc.png" alt="iwoodcnc logo" />
+          <img className="logo" src="imgs/iwoodbuild.jpg" alt="iwoodbuild logo" />
           <ul className="social">
             <li><a href="https://www.facebook.com/Iwoodcnc-103032651310709"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
             <li><a href="https://www.instagram.com/iwoodcnc"><FontAwesomeIcon icon={faInstagram} /></a></li>

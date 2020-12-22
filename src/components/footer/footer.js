@@ -14,7 +14,7 @@ export default function Footer() {
             <li><a className="smoothscroll" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a></li>
           </ul>
           <ul className="copyright">
-            <li>© Copyright 2020 iwoodCNC</li>
+            <li>© Copyright 2021 iwoodbuild</li>
             <li><a href="https://charlotteskinner.dev">Website by charlotteskinner.dev ©</a></li>
           </ul>
         </div>

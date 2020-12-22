@@ -6,9 +6,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #ffffff url(../imgs/background_blob.png) no-repeat top center;;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background-color: #ffffff;
    text-align: center;
    overflow: hidden;
 }
@@ -29,7 +27,7 @@ header .banner {
 }
 
 header .banner-text { width: 100%; }
-header .banner-text .logo { width: 300px; }
+header .banner-text .logo { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'Nunito-bold', sans-serif;
    font-weight: bold;
@@ -156,20 +154,14 @@ ul#nav li.current a { color: #8e8be8; }
 }
 #about .about-item {
    min-height: 250px;
-   border-radius: 30px;
-   width: 32%;
+   border-radius: 12px;
+   width: 100%;
    margin: 5px;
-   text-align: center;
-   padding-top: 30px;
+   padding: 30px;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
-#about .green-blob {
-   background-color: #e9f9ec;
-}
-#about .pink-blob {
-   background-color: #ffebf4;
-}
-#about .blue-blob {
-   background-color: #e5eef2;
+#about .grey {
+   background-color: #DFE0E1;
 }
 #about H5 {
    margin-bottom: 20px;
@@ -272,30 +264,23 @@ ul#nav li.current a { color: #8e8be8; }
    color: #000000;
 }
 #services .services-item {
-   min-height: 390px;
+   min-height: 308px;
    border-radius: 30px;
    margin: 10px;
+   width: 320px;
    text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
    padding-top: 30px;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 #services .services-item h5 {
    font-weight: bold;
 }
-#services .green-blob {
-   background-color: #e9f9ec;
-}
-#services .pink-blob {
-   background-color: #ffebf4;
-}
-#services .blue-blob {
-   background-color: #e5eef2;
-}
-#services .lilac-blob {
-   background-color: #d0cfec;
+#services .grey {
+   background-color: #DFE0E1;
 }
 #services H5 {
    margin-bottom: 20px;
