@@ -4,12 +4,13 @@
 import React, { useState } from 'react';
 import Modal from 'react-responsive-modal';
 import Swiper from 'react-id-swiper';
+import 'swiper/css/swiper.css';
 import './styles.css';
 
 
 const styles = {
   container: {
-    paddingTop: '40px',
+    paddingTop: '45px',
     borderRadius: '10px',
   }
 }
