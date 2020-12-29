@@ -20,6 +20,10 @@ const params = {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 'auto',
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -157,7 +161,7 @@ export default function Gallery() {
           <h1>Gallery</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
 
-          <div className="columns portfolio-item">
+          {/* <div className="columns portfolio-item">
               <div className="overlay-item">
                 <a onClick={() => setOpenFourteen(true)}>
                   <img src={`imgs/${iwoodcncImages[0]}`} className="item-img"/>
@@ -193,6 +197,44 @@ export default function Gallery() {
                   fill. All finished with several coats of
                   hard wearing varnish, making it easy
                   to clean and long lasting. 
+                  </h6>
+                </Modal>
+              </div>
+            </div> */}
+
+        
+<div className="columns portfolio-item">
+              <div className="overlay-item">
+                <a onClick={() => setOpenSecond(true)}>
+                  <img src={`imgs/${chairImages[0]}`} className="item-img"/>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <p style={{ color: '#ffffff' }} >
+                      This lovely little piano stool was made as a replica
+                      replacement for a client to complete their loft space.
+                      this piece is made from various thicknesses of birch
+                      plywood (grade BB/BB) finished with a wonderful art
+                      deco style fabric for the seat.
+                      CNC cut parts, hand assembled and hand finished for a
+                      precise and quality finish.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <Modal styles={{ modal: styles.container}} closeIconSize={20} open={openSecond} onClose={() => setOpenSecond(false)} center>
+                  <Swiper {...params}>
+                  {chairImages.map((chair, index) => (
+                    <img key={`chair_${index}`} src={`imgs/${chair}`} className="item-img img-small"/>
+                  ))}
+                  </Swiper>
+                  <h6 style={{ textAlign: 'center', marginTop: '20px'}}>
+                  This lovely little piano stool was made as a replica
+                  replacement for a client to complete their loft space.
+                  this piece is made from various thicknesses of birch
+                  plywood (grade BB/BB) finished with a wonderful art
+                  deco style fabric for the seat.
+                  CNC cut parts, hand assembled and hand finished for a
+                  precise and quality finish.
                   </h6>
                 </Modal>
               </div>
@@ -317,36 +359,26 @@ export default function Gallery() {
 
             <div className="columns portfolio-item">
               <div className="overlay-item">
-                <a onClick={() => setOpenSecond(true)}>
-                  <img src={`imgs/${chairImages[0]}`} className="item-img"/>
+                <a onClick={() => setOpenSixteen(true)}>
+                  <img src={`imgs/${pocketImages[0]}`} className="item-img"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
                       <p style={{ color: '#ffffff' }} >
-                      This lovely little piano stool was made as a replica
-                      replacement for a client to complete their loft space.
-                      this piece is made from various thicknesses of birch
-                      plywood (grade BB/BB) finished with a wonderful art
-                      deco style fabric for the seat.
-                      CNC cut parts, hand assembled and hand finished for a
-                      precise and quality finish.
+                      A close up example of some pocket
+                      lettering for a custom cut sign.
                       </p>
                     </div>
                   </div>
                 </a>
-                <Modal styles={{ modal: styles.container}} closeIconSize={20} open={openSecond} onClose={() => setOpenSecond(false)} center>
+                <Modal styles={{ modal: styles.container}} closeIconSize={20} open={openSixteen} onClose={() => setOpenSixteen(false)} center>
                   <Swiper {...params}>
-                  {chairImages.map((chair, index) => (
-                    <img key={`chair_${index}`} src={`imgs/${chair}`} className="item-img img-small"/>
+                  {pocketImages.map((pocket, index) => (
+                    <img key={`corner_${index}`} src={`imgs/${pocket}`} className="item-img img-small"/>
                   ))}
                   </Swiper>
                   <h6 style={{ textAlign: 'center', marginTop: '20px'}}>
-                  This lovely little piano stool was made as a replica
-                  replacement for a client to complete their loft space.
-                  this piece is made from various thicknesses of birch
-                  plywood (grade BB/BB) finished with a wonderful art
-                  deco style fabric for the seat.
-                  CNC cut parts, hand assembled and hand finished for a
-                  precise and quality finish.
+                  A close up example of some pocket
+                  lettering for a custom cut sign.  
                   </h6>
                 </Modal>
               </div>
@@ -721,32 +753,6 @@ export default function Gallery() {
               </div>
             </div>
 
-            <div className="columns portfolio-item">
-              <div className="overlay-item">
-                <a onClick={() => setOpenSixteen(true)}>
-                  <img src={`imgs/${pocketImages[0]}`} className="item-img"/>
-                  <div className="overlay">
-                    <div className="portfolio-item-meta">
-                      <p style={{ color: '#ffffff' }} >
-                      A close up example of some pocket
-                      lettering for a custom cut sign.
-                      </p>
-                    </div>
-                  </div>
-                </a>
-                <Modal styles={{ modal: styles.container}} closeIconSize={20} open={openSixteen} onClose={() => setOpenSixteen(false)} center>
-                  <Swiper {...params}>
-                  {pocketImages.map((pocket, index) => (
-                    <img key={`corner_${index}`} src={`imgs/${pocket}`} className="item-img img-small"/>
-                  ))}
-                  </Swiper>
-                  <h6 style={{ textAlign: 'center', marginTop: '20px'}}>
-                  A close up example of some pocket
-                  lettering for a custom cut sign.  
-                  </h6>
-                </Modal>
-              </div>
-            </div>
 
           </div>
         </div>

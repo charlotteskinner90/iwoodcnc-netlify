@@ -72,6 +72,10 @@
       justify-content: center;
    }
 
+   #services .services-item-last {
+      width: 92%;
+   }
+
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
@@ -260,7 +264,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 250px;
    }
 
    /* Resume Section

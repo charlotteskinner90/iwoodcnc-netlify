@@ -49,7 +49,7 @@ as market stands to fit your business’ branding and style.
               </div>
             </div>
 
-            <div className="columns services-item grey">
+            <div className="columns services-item services-item-last grey">
               <div>
                 <h5>CNC Cutting</h5>
                 <p>

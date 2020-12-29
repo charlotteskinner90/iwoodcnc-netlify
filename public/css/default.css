@@ -503,7 +503,7 @@ input::-moz-focus-inner {
 /*  7. Forms  --------------------------------------------------------- */
 
 form { margin-bottom: 24px; }
-fieldset { margin-bottom: 24px; }
+fieldset { padding: 0px !important; margin-bottom: 24px; }
 
 input[type="text"],
 input[type="password"],
