@@ -82,7 +82,7 @@ export default class ContactUs extends Component {
                       </div>
                       <div className="recaptcha-container">
                         <Recaptcha
-                          sitekey="6Le4ht8UAAAAAAKWLfWS5UyE5LYQgK8th9bySjQI"
+                          sitekey="6LflFBkaAAAAAOMc16QO0TOKhOtcliisy7fKyvpn"
                           render="explicit"
                           onloadCallback={this.recaptchaLoaded}
                           className="g-recaptcha"
