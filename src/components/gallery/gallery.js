@@ -125,10 +125,10 @@ const rickImages = [
   "rick/rick2.jpg"
 ]
 
-const iwoodcncImages = [
-  "iwoodcnc/iwoodcnc1.jpg",
-  "iwoodcnc/iwoodcnc2.jpg"
-]
+// const iwoodcncImages = [
+//   "iwoodcnc/iwoodcnc1.jpg",
+//   "iwoodcnc/iwoodcnc2.jpg"
+// ]
 
 const pocketImages = [
   "pocket/pocket1.jpg",
@@ -149,7 +149,7 @@ export default function Gallery() {
   const [openEleven, setOpenEleven] = useState(false)
   const [openTwelve, setOpenTwelve] = useState(false)
   const [openThirteen, setOpenThirteen] = useState(false)
-  const [openFourteen, setOpenFourteen] = useState(false)
+  // const [openFourteen, setOpenFourteen] = useState(false)
   const [openFifteen, setOpenFifteen] = useState(false)
   const [openSixteen, setOpenSixteen] = useState(false)
 
