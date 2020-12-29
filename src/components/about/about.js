@@ -28,7 +28,7 @@ export default function About() {
                 </li>
               </ul>
               <p style={{ marginTop: '30px' }}>
-                Iwoodbuild specialises in all work wood related. Whether your commercial or private, we can offer a range of services to suit your wood related needs.
+                iwoodbuild specialises in all work wood related. Whether your commercial or private, we can offer a range of services to suit your wood related needs.
               <br></br>
               <br></br>
                 Head over to the gallery to view some of the projects and pieces made for previous clients.

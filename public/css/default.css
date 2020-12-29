@@ -133,8 +133,8 @@ body {
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+h1, h2, h3, h4, h5, h6, p, ul {
+   color: #000000;
 	font-family: 'Nunito', sans-serif;
    font-weight: normal;
 }
@@ -321,7 +321,7 @@ li p { }
 	font-size: 22px;
 	font-family: 'opensans-bold', sans-serif;
    border: none;
-   color: #313131;
+   color: #000000;
 }
 .stats-tabs li a:hover {
    color:#11ABB0;
