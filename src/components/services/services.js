@@ -5,7 +5,6 @@ export default function Services() {
     <section id="services">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Services</h1>
           <div className="bgrid-thirds">
             <div className="columns services-item grey">
               <div>

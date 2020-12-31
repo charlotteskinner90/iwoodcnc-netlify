@@ -158,7 +158,6 @@ export default function Gallery() {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Gallery</h1>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
 
           {/* <div className="columns portfolio-item">

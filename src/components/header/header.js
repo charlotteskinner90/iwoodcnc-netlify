@@ -6,7 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 export default function Header() {
   return (
     <header id="home">
-      <nav id="nav-wrap">
+      <nav id="nav-wrap" style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <img className="nav-logo" src="imgs/iwoodbuild.jpg" alt="iwoodbuild logo" />
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -21,7 +22,7 @@ export default function Header() {
       </nav>
       <div className="row banner">
         <div className="banner-text">
-          <img className="logo" src="imgs/iwoodbuild.jpg" alt="iwoodbuild logo" />
+          <img className="logo" src="imgs/iwood_header.png" alt="iwoodbuild logo" />
           <ul className="social">
             <li><a href="https://www.facebook.com/Iwoodcnc-103032651310709"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
             <li><a href="https://www.instagram.com/iwoodcnc"><FontAwesomeIcon icon={faInstagram} /></a></li>
