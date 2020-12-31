@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header id="home">
       <nav id="nav-wrap" style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <img className="nav-logo" src="imgs/iwoodbuild.jpg" alt="iwoodbuild logo" />
+        <img className="nav-logo" src="imgs/iwoodbuild.png" alt="iwoodbuild logo" />
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
