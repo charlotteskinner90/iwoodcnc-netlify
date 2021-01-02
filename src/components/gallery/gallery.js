@@ -74,17 +74,17 @@ class Gallery extends React.Component {
     const sortedImages = _sortBy(galleryImages, ['date']).reverse()
 
     return (
-      <section id="portfolio">
+      <section id="gallery">
         <div className="row">
           <div className="twelve columns collapsed">
-            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
+            <div id="gallery-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               {sortedImages && sortedImages.map(item => (
-                <div key={item.name} className="columns portfolio-item">
+                <div key={item.name} className="columns gallery-item">
                   <div className="overlay-item">
                     <a onClick={() => this.openModalWithItem(item)}>
                       <img src={item.coverImage} className="item-img"/>
                       <div className="overlay">
-                        <div className="portfolio-item-meta">
+                        <div className="gallery-item-meta">
                           <p style={{ color: '#ffffff' }} >{item.overlay}</p>
                         </div>
                       </div>

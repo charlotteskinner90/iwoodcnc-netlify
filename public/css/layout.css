@@ -165,16 +165,16 @@ ul#nav li.current a { color: #D36135; }
 }
 
 
-#portfolio {
+#gallery {
    background: #ffffff;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio #portfolio-wrapper {
+#gallery #gallery-wrapper {
    margin-top: -150px;
 }
 
-#portfolio h1 {
+#gallery h1 {
    font: 20px/24px 'Nunito-bold', sans-serif;
    font-weight: bold;
    text-transform: uppercase;
@@ -184,8 +184,8 @@ ul#nav li.current a { color: #D36135; }
    color: #000000;
 }
 
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .overlay-item {
+#gallery-wrapper .columns { margin-bottom: 36px; }
+.gallery-item .overlay-item {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -196,12 +196,12 @@ ul#nav li.current a { color: #D36135; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .overlay-item a {
+.gallery-item .overlay-item a {
    display: block;
    cursor: pointer;
 }
 
-.portfolio-item .overlay-item .overlay {
+.gallery-item .overlay-item .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -220,27 +220,27 @@ ul#nav li.current a { color: #D36135; }
 
    background: url(../imgs/overlay-bg.png) repeat;
 }
-.portfolio-item .overlay-item img {
+.gallery-item .overlay-item img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.gallery-item .gallery-item-meta { padding: 18px }
+.gallery-item .gallery-item-meta h5 {
    font: 14px/21px 'Nunito-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.gallery-item .gallery-item-meta p {
    font: 14px 'Nunito-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
    text-align: justify;
 }
 
-.portfolio-item:hover .overlay {
+.gallery-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.gallery-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
