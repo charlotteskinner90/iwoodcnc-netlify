@@ -1,7 +1,4 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faInstagram, faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 export default function Header() {
   return (
@@ -20,19 +17,10 @@ export default function Header() {
           <li><a className="smoothscroll" href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div className="row banner">
-        <div className="banner-text">
-          <img className="logo" src="imgs/iwoodbuild.png" alt="iwoodbuild logo" />
-          {/* <ul className="social">
-            <li><a href="https://www.facebook.com/Iwoodcnc-103032651310709"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
-            <li><a href="https://www.instagram.com/iwoodcnc"><FontAwesomeIcon icon={faInstagram} /></a></li>
-            <li><a className="smoothscroll" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-          </ul> */}
-        </div>
-      </div>
-      {/* <p className="scrolldown">
+      <div className="row banner"></div>
+      <p className="scrolldown">
         <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
-      </p> */}
+      </p>
     </header>
   );
 }

@@ -233,7 +233,9 @@
       line-height: 36px;      
    }
    header .social li { margin: 0 10px; }
-
+   header .scrolldown a {
+      display: none;
+   }
 
 
    /* About Section
