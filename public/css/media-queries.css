@@ -399,9 +399,9 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header {
+   /* header {
       height: 500px !important;
-   }
+   } */
    header .banner { padding-top: 0px; margin-top: 0px; }
   
    /* header social links */

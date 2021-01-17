@@ -49,6 +49,12 @@ class Gallery extends React.Component {
     }
   }
 
+  componentDidMount() {
+    if (window.location.host === 'iwoodbuild.co.uk' || window.location.host === 'iwoodbuild-test.netlify.app') {
+      window.gtag('config', 'G-Y98RW2Q2MD', { 'page_title': 'gallery', page_path: window.location.pathname })
+    }
+  }
+
   openModalWithItem(item) {
     this.setState({
        openModal: true,
@@ -57,6 +63,7 @@ class Gallery extends React.Component {
        activeItemImages: item.galleryImages,
        activeItemDescription: item.overlay,
     })
+    window.gtag('config', 'G-Y98RW2Q2MD', { 'page_title': `open gallery ${item.name}`, page_path: item.name })
   }
 
   closeModal() {

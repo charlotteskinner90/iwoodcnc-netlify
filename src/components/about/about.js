@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function About() {
+  useEffect(() => {
+    if (window.location.host === 'iwoodbuild.co.uk' || window.location.host === 'iwoodbuild-test.netlify.app') {
+      window.gtag('config', 'G-Y98RW2Q2MD', { 'page_title': 'about', page_path: window.location.pathname })
+    }
+  })
   return (
     <section id="about">
       <div className="row about-text">

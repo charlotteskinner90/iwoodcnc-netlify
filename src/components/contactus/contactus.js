@@ -12,6 +12,11 @@ export default class ContactUs extends Component {
     this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
   }
 
+  componentDidMount() {
+    if (window.location.host === 'iwoodbuild.co.uk' || window.location.host === 'iwoodbuild-test.netlify.app') {
+      window.gtag('config', 'G-Y98RW2Q2MD', { 'page_title': 'contact', page_path: window.location.pathname })
+    }
+  }
   handleChange(param, event) {
     this.setState({ [param]: event.target.value})
   }
@@ -35,7 +40,7 @@ export default class ContactUs extends Component {
       "project_request": message,
     };
     
-    emailjs.send('iwoodcnc_hotmail','iwoodcnc_email', templateParams, 'user_12rt9wgPiS9FSrYaUQfaP')
+    emailjs.send('service_63pyyb3','iwoodbuild_email', templateParams, 'user_w7uSna8iiGdffPqJhR5PD')
       .then((response) => {
         showToastBL("Thank you for your enquiry. We will be in touch soon.");
         this.resetForm()
