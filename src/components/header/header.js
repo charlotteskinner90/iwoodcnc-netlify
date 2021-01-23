@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   return (
@@ -19,7 +21,7 @@ export default function Header() {
       </nav>
       <div className="row banner"></div>
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
+        <a className="smoothscroll" href="#about"><FontAwesomeIcon icon={faChevronCircleDown} /></a>
       </p>
     </header>
   );

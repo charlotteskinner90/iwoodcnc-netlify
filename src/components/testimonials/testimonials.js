@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function Testimonials() {
   useEffect(() => {
@@ -12,6 +14,7 @@ export default function Testimonials() {
         <div className="row">
           <div className="two columns header-col">
             <h1><span>Client Testimonials</span></h1>
+            <FontAwesomeIcon className="quote-left" icon={faQuoteLeft} />
           </div>
           <div className="ten columns flex-container">
             <div className="flexslider">

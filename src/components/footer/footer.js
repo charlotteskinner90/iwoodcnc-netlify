@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faChevronUp } from "@fortawesome/free-solid-svg-icons"
 
 export default function Footer() {
   return (
@@ -18,7 +18,7 @@ export default function Footer() {
             <li><a href="https://charlotteskinner.dev">Website by charlotteskinner.dev ©</a></li>
           </ul>
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><FontAwesomeIcon icon={faChevronUp} /></a></div>
       </div>
     </footer>
   )
