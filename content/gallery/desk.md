@@ -6,9 +6,9 @@ overlay: Here we have a custom made desk for a client particularly keen on the
   featuring 3 large drawers perfect for A4 sized documents. Finished in three
   coats of strong durable varnish CNC cut parts for precision accuracy. Hand
   assembled and hand finished to a quality standard
-coverImage: /images/uploads/customdesk1.jpg
+coverImage: /images/uploads/customdesk_1.jpg
 galleryImages:
-  - /images/uploads/customdesk1.jpg
+  - /images/uploads/customdesk_1.jpg
   - /images/uploads/customdesk2.jpg
   - /images/uploads/customdesk3.jpg
   - /images/uploads/customdesk4.jpg
