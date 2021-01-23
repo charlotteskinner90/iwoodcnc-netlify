@@ -89,7 +89,7 @@ class Gallery extends React.Component {
                 <div key={item.name} className="columns gallery-item">
                   <div className="overlay-item">
                     <a onClick={() => this.openModalWithItem(item)}>
-                      <img src={item.coverImage} className="item-img"/>
+                      <img src={item.coverImage} className="item-img" alt={item.title} />
                       <div className="overlay">
                         <div className="gallery-item-meta">
                           <p style={{ color: '#ffffff' }} >{item.overlay}</p>
@@ -102,7 +102,7 @@ class Gallery extends React.Component {
               <Modal key={this.state.activeItemId} styles={{ modal: styles.container}} closeIconSize={20} open={this.state.openModal} onClose={() => this.closeModal()} center>
                 <Swiper {...params}>
                 {this.state && this.state.activeItemImages.map((image, index) => (
-                  <img key={`corner_${index}`} src={image} className="item-img img-small"/>
+                  <img key={`corner_${index}`} src={image} className="item-img img-small" alt="gallery images" />
                 ))}
                 </Swiper>
                 <h6 style={{ textAlign: 'center', marginTop: '20px'}}>

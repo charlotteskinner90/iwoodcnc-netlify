@@ -93,9 +93,6 @@ export default class ContactUs extends Component {
                           className="g-recaptcha"
                         />
                         <button type="submit" className="submit">Submit</button>
-                        <span id="image-loader">
-                          <img alt="" src="images/loader.gif" />
-                        </span>
                       </div>
                     </fieldset>
                   </form>

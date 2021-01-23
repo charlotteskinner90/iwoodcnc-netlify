@@ -150,7 +150,7 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #D36135; }
 
 #about {
-   background: #6C7C67;
+   background: #6C7A66;
    padding-top: 66px;
    padding-bottom: 96px;
    overflow: hidden;
@@ -546,13 +546,13 @@ footer {
    padding-top: 48px;
    padding-bottom: 48px;
    background-color: #0f0f0f;
-   color: #525252;
+   color: #7D7D7D;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #7D7D7D; }
 footer a:hover, footer a:focus { color: #fff; }
 
 footer .copyright {
@@ -564,7 +564,7 @@ footer .copyright li {
     margin: 0;
     padding: 0;
     line-height: 24px;
-    color: #525252;
+    color: #7D7D7D;
 }
 .ie footer .copyright li {
    display: inline;
@@ -607,7 +607,7 @@ footer .copyright li a:hover { color: #D36135; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #7D7D7D;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
