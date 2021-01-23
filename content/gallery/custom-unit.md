@@ -6,9 +6,9 @@ overlay: This wonderful piece of custom furniture was made for a client who
   unit was a compete custom build, with coloured laminated fronts, making them
   easy to clean and wipe down. CNC cut parts for precise and accurate fit. Hand
   assembled and hand finished.
-coverImage: /images/uploads/customunit1.jpg
+coverImage: /images/uploads/customunit_1.jpg
 galleryImages:
-  - /images/uploads/customunit1.jpg
+  - /images/uploads/customunit_1.jpg
   - /images/uploads/customunit2.jpg
   - /images/uploads/customunit3.jpg
   - /images/uploads/customunit4.jpg
