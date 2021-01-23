@@ -6,9 +6,9 @@ overlay: This lovely little piano stool was made as a replica replacement for a
   thicknesses of birch plywood (grade BB/BB) finished with a wonderful art deco
   style fabric for the seat. CNC cut parts, hand assembled and hand finished for
   a precise and quality finish.
-coverImage: /images/uploads/chair1.jpg
+coverImage: /images/uploads/chair_1.jpg
 galleryImages:
-  - /images/uploads/chair1.jpg
+  - /images/uploads/chair_1.jpg
   - /images/uploads/chair2.jpg
   - /images/uploads/chair3.jpg
 ---
